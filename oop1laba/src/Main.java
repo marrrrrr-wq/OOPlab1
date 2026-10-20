@@ -10,5 +10,8 @@ public class Main {
 
         System.out.println("\nВы создали клиента:\n");
         System.out.println(client);
+        
+        Courier courier = input.createCourier();
+        System.out.println("\nВы создали курьера:\n" + courier);
     }
 }

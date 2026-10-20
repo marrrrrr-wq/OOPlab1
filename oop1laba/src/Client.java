@@ -10,7 +10,7 @@ public class Client {
         this.address = address;
     }
 
-    public String getName()
+    public String getNamme()
     { return name;}
 
     public String getPhone()
